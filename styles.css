@@ -72,6 +72,7 @@ nav ul{
   display: inline-block;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
+  text-decoration: none;
   font-weight: 600;
   color: #00ffe7;
   border: 1px solid #00ffe740;
@@ -108,7 +109,15 @@ nav ul{
 a {
   text-decoration: none;
 }
-
+.btn{
+  background-color: #00f0c8;
+}
+.contactto{
+  text-align: center;
+}
+.contactto p{
+  padding-bottom: 25px;
+}
 .btn:hover::after, 
 .nav-item:hover::after, 
 .resume-btn a:hover::after, 
