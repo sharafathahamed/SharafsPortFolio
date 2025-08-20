@@ -110,6 +110,7 @@ a {
   text-decoration: none;
 }
 .contactto .btn{
+    color: #1a1d25;
   background-color: #00f0c8;
 }
 .contactto{
@@ -528,3 +529,4 @@ footer{
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+
