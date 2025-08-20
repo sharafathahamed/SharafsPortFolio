@@ -60,7 +60,7 @@ nav ul{
   padding: 0 10%;
   background-color: #0f1117;
   background-image: url(IMG_3522.JPG);
-  background-size: contain;   /* or 'cover' if you want full coverage */
+  background-size: cover;   /* 🔹 full coverage */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -529,4 +529,5 @@ footer{
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+
 
