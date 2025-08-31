@@ -1,4 +1,4 @@
-*{
+*{*{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -64,6 +64,15 @@ nav ul{
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* ✅ Profile picture fix */
+#head img {
+  width: 200px;       /* set consistent width */
+  height: auto;       /* keep aspect ratio */
+  border-radius: 50%; /* circular */
+  object-fit: cover;  /* prevent distortion */
+}
+
 .btn, 
 .nav-item, 
 .resume-btn a, 
